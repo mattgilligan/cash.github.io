@@ -24,7 +24,7 @@ body {
 .title {
     position: absolute;
     top: 75%;
-    margin-top: -60px;
+    margin-top: -3.75em;
     
     text-align: center;
     width: 100%;
@@ -36,11 +36,11 @@ body {
 }
 
 .title h1 {
-    font-size: 32px;
+    font-size: 2em;
 }
 
 .title h3 {
-    font-size: 18px;
+    font-size: 1.125em;
     opacity: 0.6;
     margin-bottom: 20px;
 }
@@ -50,7 +50,7 @@ body {
 }
 
 .footer {
-    font-size: 14px;
+    font-size: 0.875em;
     color: rgba(255, 255, 255, 0.6);
     
     text-align: center;
@@ -59,7 +59,7 @@ body {
     position: absolute;
     text-align: center;
     top: 100%;
-    margin-top: -32px;
+    margin-top: -2em;
 }
 
 .footer a {

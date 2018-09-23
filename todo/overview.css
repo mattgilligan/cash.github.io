@@ -272,14 +272,44 @@
 
 .iphone-x-large .screenshot.large {
     top: 23px;
-    left: 26px;
+    left: 28px;
     width: 359px;
-    height: 775px;
-    background-size: 358.13px 774.18px;
-    background-position: 0.93px 0.91px;
+    height: 777px;
+    background-size: 359px 776.06px;
+    background-position: 0 0.97px;
+}
+
+.ipad-pro .screenshot {
+    top: 31px;
+    left: 82px;
+    width: 952px;
+    height: 714px;
+    background-size: 951.6px 713.54px;
+    background-position: 0.23px 0.6px;
 }
 
 @media only screen and (max-width: 1068px) {
+    .iphone-x.collapse-early .screenshot {
+        top: 14px;
+        left: 15px;
+        width: 212px;
+        height: 458px;
+        background-size: 211.58px 457.17px;
+        background-position: 0.91px 0.12px;
+    }
+
+    .ipad-pro.collapse-early .screenshot {
+        top: 23px;
+        left: 63px;
+        width: 727px;
+        height: 546px;
+        background-size: 726.53px 545.27px;
+        background-position: 0.87px 0.39px;
+
+    }
+}
+
+@media only screen and (max-width: 735px) {
     .iphone-x .screenshot {
         top: 14px;
         left: 15px;
@@ -318,6 +348,10 @@
     background-image: url('resources/new-todo.jpg');
 }
 
+.screenshot#today {
+    background-image: url('resources/today.jpg');
+}
+
 .screenshot#scheduled {
     background-image: url('resources/scheduled.jpg');
 }
@@ -338,8 +372,12 @@
     background-image: url('resources/add-subtasks.jpg');
 }
 
-.screenshot#icloud {
+.iphone-x .screenshot#icloud {
     background-image: url('resources/icloud.jpg');
+}
+
+.ipad-pro .screenshot#icloud {
+    background-image: url('resources/icloud-ipad-pro.jpg');
 }
 
 /* Specs */
@@ -432,10 +470,10 @@
 /* Billboard */
 
 .billboard .app-icon {
-    width: 124px;
-    height: 124px;
+    width: 89px;
+    height: 89px;
     background-image: url('resources/app-icon.png');
-    background-size: 124px 124px;
+    background-size: 89px 89px;
     margin: 0px auto;
     margin-bottom: 29px;
 }

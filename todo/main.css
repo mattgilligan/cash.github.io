@@ -1,0 +1,243 @@
+/* General */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, hgroup, p, blockquote, figure,
+form, fieldset, input, legend, pre, abr, button {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset, iframe, img {
+    border: 0;
+}
+
+caption, th {
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+@media print {
+    body {
+        color: #000;
+    }
+}
+
+html {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text",  "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 106.25%;
+    quotes: "“" "”";
+}
+
+body {
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    /* letter-spacing: -.0041em; /*-.022em; */
+    color: #3A3A40;
+    -moz-font-feature-settings: 'kern';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #111115;
+}
+
+a {
+    color: #007AC9;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+em, i, cite, dfn {
+    font-style: italic;
+}
+
+/* Typography */
+
+.headline {
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: 0;
+    font-weight: 600;
+}
+
+.headline-reduced {
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+}
+
+.subhead {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: .009em;
+    font-weight: 600;
+    margin-bottom: 13px;
+}
+
+.eyebrow {
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 600;
+    letter-spacing: .007em;
+}
+
+/* e.g. feature header */
+.intro {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: .011em;
+    font-weight: 600;
+    color: #3A3A40;
+}
+
+.sosumi {
+    font-size: 12px;
+    line-height: 1.33341;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    color: #8E8E93;
+}
+
+@media only screen and (max-width: 735px) {
+    .headline {
+        font-size: 32px;
+        line-height: 1.125;
+        letter-spacing: .004em;
+    }
+
+    .eyebrow {
+        font-size: 21px;
+        line-height: 1.19048;
+        font-weight: 600;
+        letter-spacing: .011em;
+    }
+
+    .intro {
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: .012em;
+    }
+}
+
+/* Violators */
+
+.violator {
+    background-color: #FF9500;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin: 0 auto;
+}
+
+.button {
+    background-color: #007AFF;
+    padding: 4px 10px;
+    border-radius: 6px;
+    color: white;
+}
+
+.buy a:hover {
+    text-decoration: none;
+}
+
+/* Content */
+
+.content {
+    margin: 0 auto;
+    width: 980px;
+    padding: 0 22px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .content {
+        width: 692px;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .content {
+        width: 87.5%;
+    }
+}
+
+/* Header */
+
+nav .content {
+    height: 132px;
+}
+
+nav .title {
+    margin-top: 46px;
+    float: left;
+}
+
+nav .title .todo {
+    width: 42px;
+    height: 42px;
+    margin-top: -1px;
+    margin-left: -1px;
+    background-image: url('resources/todo.svg');
+    background-position: 1px 1px;
+    background-repeat: no-repeat;
+}
+
+nav .menu {
+    margin-top: 66px;
+    float: right;
+}
+
+nav .menu li {
+    margin-left: 24px;
+    float: left;
+    list-style: none;
+}
+
+nav .menu li a {
+    font-size: 12px;
+    line-height: 22px;
+    color: #3A3A40;
+}
+
+nav .menu .buy {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 3px;
+    white-space: nowrap;
+}
+
+nav .menu li a:hover {
+    text-decoration: none;
+    color: #007AC9;
+}
+
+/* Main */
+
+main {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}

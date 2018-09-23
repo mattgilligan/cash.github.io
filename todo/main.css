@@ -42,6 +42,7 @@ body {
     font-weight: 400;
     /* letter-spacing: -.0041em; /*-.022em; */
     color: #3A3A40;
+    min-width: 320px;
     -moz-font-feature-settings: 'kern';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

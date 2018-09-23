@@ -14,7 +14,7 @@
 
 @media only screen and (max-width: 735px) {
     .hero .headline {
-        width: 320px;
+        max-width: 320px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -27,7 +27,8 @@
 
 @media only screen and (max-width: 735px) {
     .hardware-wrapper-large {
-        width: 321px;
+        width: 244px;
+        margin: 0 auto;
     }
 }
 
@@ -77,7 +78,7 @@
 }
 
 .copy-wrapper {
-    width: 374px;
+    max-width: 374px;
 }
 
 .hardware-wrapper.left {
@@ -235,9 +236,9 @@
     }
 
     .iphone-x-large {
-        width: 321px;
-        height: 640px;
-        background-size: 321px 640px;
+        width: 244px;
+        height: 489px;
+        background-size: 244px 489px;
     }
 
     .ipad-pro {
@@ -295,6 +296,17 @@
         height: 603px;
         background-size: 278.36px 602.03px;
         background-position: 0.93px 0.16px;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .iphone-x-large .screenshot.large {
+        top: 14px;
+        left: 15px;
+        width: 212px;
+        height: 458px;
+        background-size: 211.58px 457.17px;
+        background-position: 0.91px 0.12px;
     }
 }
 
